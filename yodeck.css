@@ -1,0 +1,799 @@
+body {
+    --bg-main: #2a2d38;
+    --bg-secondary: #474859;
+    --bg-terciary: #474850;
+}
+
+#body span,
+#body td,
+#body th {
+    color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+label,
+button,
+li,
+i,
+.select2-results__option--highlighted[aria-selected] {
+    color: white !important;
+}
+
+.white_tab,
+.custom_dropdown .custom_dropdown_menu,
+.workspaces_link,
+.all-media-gallery-modal .modal-dialog .modal-body #all-media-lists .tabbable>.tab-content>.tab-pane[class*=container] div>[class*=source-gallery],
+.all-media-gallery-modal .modal-dialog .modal-body #all-media-lists .tabbable>.tab-content>.tab-pane[class*=container]>[class*=source-gallery],
+#upload-list,
+#user_menu_container .user-menu,
+#show_editor .show-editor-container .layout-header-wrapper,
+#workspace-list .workspaces-info,
+#navbar.responsive {
+    color: white !important;
+    background-color: var(--bg-secondary) !important;
+}
+
+.secondary-button {
+    color: white !important;
+    background-color: var(--bg-secondary) !important;
+}
+
+.tertiary-button-light {
+    color: white !important;
+    background-color: var(--bg-secondary) !important;
+}
+
+.tag_container a i {
+    color: white !important;
+}
+
+.is-form-view input[type=number],
+.is-form-view input[type=password],
+.is-form-view input[type=tel],
+.is-form-view input[type=text],
+.mass_edit_popup input[type=number],
+.mass_edit_popup input[type=password],
+.mass_edit_popup input[type=text],
+input[type=search],
+.input-group-addon,
+.tag_container {
+    color: white !important;
+    background-color: var(--bg-secondary) !important;
+}
+
+#visible_workspace,
+.dashboard-widget-container.audit-logs .widget-content #audit-log-container #profile-feed .audit-log-item .user-action {
+    color: white;
+}
+
+.dashboard-widget-container.monitor-status .widget-content .monitor-content .status-container,
+.dropdown-menu,
+.table .table,
+#audit-logs .tab-content,
+#emergency-lists .tab-content,
+.all_media_form_view form .form-content .details-widget-container .details-container,
+.audio_form_view form .form-content .details-widget-container .details-container,
+.image_form_view form .form-content .details-widget-container .details-container,
+.pdf_form_view form .form-content .details-widget-container .details-container,
+.redesigned_form form .form-content .details-widget-container .details-container,
+.url_form_view form .form-content .details-widget-container .details-container,
+.video_form_view form .form-content .details-widget-container .details-container,
+#mainTable .dataTables_length .page-length-items,
+.forward-assignment-modal .bootbox-body .playlists-selection-container .select2-container .select2-selection--multiple .select2-selection__rendered li.select2-selection__choice,
+.choices.open-transitions .transition-grid,
+.account-settings-list .profile-activity .thumbicon {
+    background-color: var(--bg-main);
+    color: white;
+}
+
+#navbar-container ul.nav li a.dropdown-toggle>i,
+.btn [class*=search],
+.btn-group [class*=edit],
+.btn-group [class*=clone],
+.btn-group [class*=share],
+.all_media_form_view form .form-content .details-widget-container .details-container .detail-container .detail-data,
+.audio_form_view form .form-content .details-widget-container .details-container .detail-container .detail-data,
+.image_form_view form .form-content .details-widget-container .details-container .detail-container .detail-data,
+.pdf_form_view form .form-content .details-widget-container .details-container .detail-container .detail-data,
+.redesigned_form form .form-content .details-widget-container .details-container .detail-container .detail-data,
+.url_form_view form .form-content .details-widget-container .details-container .detail-container .detail-data,
+.video_form_view form .form-content .details-widget-container .details-container .detail-container .detail-data,
+.all_media_form_view form .form-actions .form-label,
+.audio_form_view form .form-actions .form-label,
+.image_form_view form .form-actions .form-label,
+.pdf_form_view form .form-actions .form-label,
+.redesigned_form form .form-actions .form-label,
+.url_form_view form .form-actions .form-label,
+.video_form_view form .form-actions .form-label {
+    color: white !important;
+}
+
+#sidebar {
+    color: white;
+}
+
+.sidebar-head {
+    background-color: unset;
+    color: white;
+}
+
+#sidebar:before {
+    background: var(--bg-main);
+}
+
+.nav-list>li>a {
+    color: white;
+}
+
+.nav-list>li.active {
+    background-color: var(--bg-main);
+}
+
+.nav-list>li.active>a {
+    background-color: var(--bg-secondary) !important;
+}
+
+.page-content.new-background {
+    background-color: var(--bg-main) !important;
+}
+
+.main-container.new-background {
+    background-color: var(--bg-main) !important;
+}
+
+.main-container.new-background:after {
+    background-color: var(--bg-main) !important;
+}
+
+.is-list-view.breadcrumb li.active>a,
+.is-list-view.breadcrumb li>a,
+.access-workspace-select.select2-dropdown .filter-description,
+.primary-workspace-select.select2-dropdown .filter-description {
+    color: white !important;
+}
+
+.dashboard-widget-container {
+    background-color: var(--bg-secondary);
+}
+
+.sticky-buttons-bg-color-grey {
+    background-color: var(--bg-secondary);
+}
+
+.dashboard-widget-container .widget-title {
+    color: white;
+}
+
+.dashboard-widget-container.monitor-status .widget-content .no-monitors-content .content {
+    color: white;
+}
+
+.table-header {
+    color: white;
+}
+
+#mainTable table:not(.window-resize) tbody tr {
+    background-color: var(--bg-secondary)
+}
+
+#mainTable.listing-flat thead {
+    background-color: var(--bg-secondary)
+}
+
+.dataTables_empty {
+    color: white;
+}
+
+#device-list thead .fixed-columns,
+#device-list thead th {
+    background-color: var(--bg-secondary) !important;
+}
+
+.nav-list>li.open>a {
+    color: white;
+    background-color: var(--bg-secondary) !important;
+}
+
+.nav-list>li.open .submenu,
+.icon_container {
+    color: white;
+    background-color: var(--bg-secondary) !important;
+}
+
+.nav-list>li .submenu>li>a {
+    color: white;
+}
+
+.form_header {
+    background-color: var(--bg-primary);
+}
+
+.back_to_list {
+    color: white !important;
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view .fc-head-container.fc-widget-header thead tr {
+    background-color: var(--bg-primary);
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view .fc-head-container thead tr .fc-today {
+    color: white !important;
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view .fc-head-container.fc-widget-header .fc-row.fc-widget-header table thead tr>th {
+    background-color: var(--bg-main) !important;
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view td.fc-widget-header .fc-row.fc-widget-header>table thead tr .fc-day-header {
+    color: white !important;
+}
+
+.page-header h1,
+h2,
+h3.smaller {
+    color: white !important;
+}
+
+.fc-time-grid table {
+    background-color: var(--bg-main);
+}
+
+#mainTable table:not(.window-resize) tbody tr td.item-data-dark .item-name-preview-container {
+    color: white;
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view .fc-time-grid.fc-unselectable .fc-axis.fc-time.fc-widget-content span {
+    color: white;
+}
+
+#navbar-container ul.nav li a.dropdown-toggle>i {
+    color: white !important;
+}
+
+#sidebar {
+    color: white;
+}
+
+.sidebar-head {
+    background-color: unset;
+    color: white;
+}
+
+#sidebar:before {
+    background: var(--bg-main);
+}
+
+.nav-list>li>a {
+    color: white;
+}
+
+.nav-list>li.active {
+    background-color: var(--bg-main);
+}
+
+.nav-list>li.active>a {
+    background-color: var(--bg-secondary) !important;
+}
+
+.page-content.new-background {
+    background-color: var(--bg-main) !important;
+}
+
+.main-container.new-background {
+    background-color: var(--bg-main) !important;
+}
+
+.main-container.new-background:after {
+    background-color: var(--bg-main) !important;
+}
+
+.is-list-view.breadcrumb li.active>a,
+.is-list-view.breadcrumb li>a {
+    color: white !important;
+}
+
+.dashboard-widget-container {
+    background-color: var(--bg-secondary);
+}
+
+.sticky-buttons-bg-color-grey {
+    background-color: var(--bg-secondary);
+}
+
+.dashboard-widget-container .widget-title {
+    color: white;
+}
+
+.dashboard-widget-container.monitor-status .widget-content .no-monitors-content .content {
+    color: white;
+}
+
+.table-header {
+    color: white;
+}
+
+#mainTable table:not(.window-resize) tbody tr {
+    background-color: var(--bg-secondary)
+}
+
+#mainTable.listing-flat thead {
+    background-color: var(--bg-secondary)
+}
+
+.dataTables_empty {
+    color: white;
+}
+
+#device-list thead .fixed-columns,
+#device-list thead th {
+    background-color: var(--bg-secondary) !important;
+}
+
+.nav-list>li.open>a {
+    color: white;
+    background-color: var(--bg-secondary) !important;
+}
+
+.nav-list>li.open .submenu {
+    color: white;
+    background-color: var(--bg-secondary) !important;
+}
+
+.nav-list>li .submenu>li>a {
+    color: white;
+}
+
+.form_header {
+    background-color: var(--bg-main);
+}
+
+.back_to_list {
+    color: white !important;
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view .fc-head-container.fc-widget-header thead tr {
+    background-color: var(--bg-main);
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view .fc-head-container thead tr .fc-today {
+    color: white !important;
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view .fc-head-container.fc-widget-header .fc-row.fc-widget-header table thead tr>th {
+    background-color: var(--bg-main) !important;
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view td.fc-widget-header .fc-row.fc-widget-header>table thead tr .fc-day-header {
+    color: white !important;
+}
+
+.page-header h1,
+h2,
+h3.smaller {
+    color: white !important;
+}
+
+.fc-time-grid table {
+    background-color: var(--bg-main);
+}
+
+#mainTable table:not(.window-resize) tbody tr td.item-data-dark .item-name-preview-container {
+    color: white;
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view .fc-time-grid.fc-unselectable .fc-axis.fc-time.fc-widget-content span {
+    background-color: var(--bg-main) !important;
+}
+
+.nav-list>li a:hover,
+.nav-list>li.active .submenu,
+.nav-list>li.active>a,
+.nav-list>li.open .submenu,
+.nav-list>li.open.active .submenu,
+.nav-list>li.open.active>a,
+.nav-list>li.open>a {
+    background-color: var(--bg-main) !important;
+}
+
+.modal-content,
+.panel,
+.schedule_entry_modal .modal-dialog .modal-body .bootbox-body,
+.modal-footer {
+    background-color: var(--bg-main) !important;
+    color: white;
+}
+
+.schedule_entry_modal .modal-dialog .form-content .content-subsection .subsection-header,
+.schedule_entry_modal .timezone-message-container .timezone-message {
+    color: white !important;
+}
+
+.form-control,
+select {
+    background-color: var(--bg-secondary) !important;
+    color: white !important;
+}
+
+.schedule_entry_modal .modal-dialog .form-content .form-group .show-container #show-source-type-dropdown .btn-text.no-content-type,
+.schedule_entry_modal .modal-dialog .form-content .select2-selection .select2-selection__rendered {
+    color: white !important;
+}
+
+.schedule_entry_modal .modal-dialog .form-content .form-group .show-container>div .btn-grp-container .dropdown-menu {
+    background-color: var(--bg-secondary) !important;
+    color: white;
+}
+
+.schedule_entry_modal .modal-dialog .form-content .form-group .show-container>div .btn-grp-container #show-source-type-dropdown,
+.select2-container--bootstrap .select2-selection,
+.select2-close-mask,
+.select2-container--default .select2-selection--single,
+.select2-dropdown,
+.select2-results__option--highlighted[aria-selected] {
+    background-color: var(--bg-secondary) !important;
+    color: white;
+}
+
+.splitted-pickers-container .splitted-date-container div.date-picker,
+.splitted-pickers-container .splitted-date-container input.date-picker,
+.splitted-pickers-container .splitted-time-container div.date-picker,
+.splitted-pickers-container .splitted-time-container input.date-picker,
+.schedule_entry_modal .modal-dialog .form-content .form-group .show-container #show-source-type-dropdown .btn-text,
+.is-form-view .select2-container .select2-selection .select2-selection__rendered,
+#user-list .item-name .email,
+#user-list .item-name .single-workspace-name,
+#user-list .item-name.date-added {
+    color: white !important;
+}
+
+.fc-toolbar.fc-header-toolbar .add-event,
+.fc-toolbar.fc-header-toolbar .fc-agendaDay-button,
+.fc-toolbar.fc-header-toolbar .fc-agendaWeek-button,
+.fc-toolbar.fc-header-toolbar .fc-month-button,
+.fc-toolbar.fc-header-toolbar .fc-next-button,
+.fc-toolbar.fc-header-toolbar .fc-prev-button,
+.fc-toolbar.fc-header-toolbar .fc-today-button,
+.all_media_form_view form .form-content .settings-widget-container,
+.audio_form_view form .form-content .settings-widget-container,
+.image_form_view form .form-content .settings-widget-container,
+.pdf_form_view form .form-content .settings-widget-container,
+.redesigned_form form .form-content .settings-widget-container,
+.url_form_view form .form-content .settings-widget-container,
+.video_form_view form .form-content .settings-widget-container,
+.all_media_form_view form .form-content .details-widget-container,
+.audio_form_view form .form-content .details-widget-container,
+.image_form_view form .form-content .details-widget-container,
+.pdf_form_view form .form-content .details-widget-container,
+.redesigned_form form .form-content .details-widget-container,
+.url_form_view form .form-content .details-widget-container,
+.video_form_view form .form-content .details-widget-container,
+.form-delete-button,
+#schedule-form .default-content-entry {
+    background-color: var(--bg-secondary) !important;
+    color: white;
+}
+
+#schedule-form td.default-show,
+#volume-schedule-form td.default-show,
+.fc .fc-row .fc-content-skeleton table,
+.fc .fc-row .fc-content-skeleton td,
+.fc .fc-row .fc-helper-skeleton td,
+.fc-bgevent,
+#schedule-form .fc-view.fc-month-view td,
+#schedule-form .fc-view.fc-month-view .fc-head-container thead .fc-widget-header,
+#schedule-form .calendar-entries-container .entries-list-container .widget-box,
+#schedule-form .calendar-entries-container .entries-list-container .widget-box .widget-header .schedule-events-list-message,
+#schedule-form .calendar-entries-container .entries-list-container .widget-box .widget-body>div .dropdown-toggle .widget-body-header,
+.dataTables_filter.custom-search .tag_container,
+#device-list .widget-toolbar .export-refresh-container .working-hours-button.disabled {
+    background-color: var(--bg-secondary) !important;
+    color: white !important;
+}
+
+#schedule-form .fc-view.fc-month-view .fc-day-top .fc-day-number {
+    color: white;
+}
+
+#schedule-form .fc-view.fc-month-view .fc-head-container thead .fc-widget-header.fc_header-today,
+#schedule-form .fc-unthemed td.fc-today .fc-day-number {
+    color: var(--basic_branding) !important;
+}
+
+#device-list tbody .fixed-columns {
+    background-color: var(--bg-secondary)
+}
+
+.all-media-gallery-modal .audio-options .source-button,
+.all-media-gallery-modal .image-options .source-button,
+.all-media-gallery-modal .pdf-options .source-button,
+.all-media-gallery-modal .video-options .source-button,
+#upload-list {
+    border: none !important;
+    box-shadow: 0 2px 6px gray !important;
+}
+
+.all-media-gallery-modal .audio-options .source-button.active,
+.all-media-gallery-modal .image-options .source-button.active,
+.all-media-gallery-modal .pdf-options .source-button.active,
+.all-media-gallery-modal .video-options .source-button.active {
+    border: 1px solid #31ac9e !important;
+    background-color: #31ac9e !important;
+}
+
+.all-media-gallery-modal .audio-options .source-button,
+.all-media-gallery-modal .image-options .source-button,
+.all-media-gallery-modal .pdf-options .source-button,
+.all-media-gallery-modal .video-options .source-button,
+#upload-list,
+.all-media-gallery-modal .modal-dialog .modal-body #all-media-lists .tabbable>.tab-content>.tab-pane[class*=container] {
+    background-color: var(--bg-secondary) !important;
+    color: white !important;
+}
+
+.filters .filter-type-button>div,
+.monitors-tag-filters .filter-type-button>div,
+.monitors-workspace-filters .filter-type-button>div,
+.player-type-selector .player-type-button>div,
+.source-gallery .source-button>div,
+.video-source-gallery .video-source-button>div,
+.breadcrumb>li>a,
+.all_media_form_view form .form-content .details-widget-container .details-header,
+.audio_form_view form .form-content .details-widget-container .details-header,
+.image_form_view form .form-content .details-widget-container .details-header,
+.pdf_form_view form .form-content .details-widget-container .details-header,
+.redesigned_form form .form-content .details-widget-container .details-header,
+.url_form_view form .form-content .details-widget-container .details-header,
+.video_form_view form .form-content .details-widget-container .details-header,
+.video_form_view form .form-content .settings-widget-container .settings-header,
+.add-description-toggle,
+#playlist_form #playlist_container .playlist .containers .available-container.playlist-widget .playlist-widget-library-title {
+    color: white !important;
+}
+
+.profile-header,
+.dropdown-navbar .simplebar-content>li.dropdown-header,
+.nav-tabs>li>a,
+.account-settings-list .profile-activity .section-container strong,
+.account-settings-list .profile-activity .time strong,
+.account-settings-list .profile-activity .column-bottom>*,
+.editor-container textarea,
+text.form-control,
+textarea {
+    color: white !important;
+}
+
+.tertiary-pill-light,
+.app-gallery .app-gallery-toolbar .gallery-filter-tools .app-groups-container [class*=app-groups-scroll],
+#device-list tbody .fixed-columns,
+#device-list .status_label,
+#mainTable table:not(.window-resize) tbody tr td.item-data-dark .icon-wrapper {
+    background-color: var(--bg-secondary) !important;
+}
+
+.app-gallery .app-cards .app_column .app-card .description-content>h3,
+.supported-player-type {
+    color: black !important;
+}
+
+.simplebar-content-wrapper,
+#toolbar-layout .action-buttons-container {
+    background-color: var(--bg-secondary);
+}
+
+#toolbar-layout .general-settings-layering ul>li,
+#user-list td.user-groups-column .option_container .pill-container .pill,
+#user-list .item-name .role-label.admin,
+#user-list .item-name .role-label.subscription,
+.interactive-playlist-indicator {
+    color: white !important;
+    background-color: var(--bg-main) !important;
+}
+
+#playlist_form #playlist_container .playlist .containers .available-container.playlist-widget #available-filter li a,
+#playlist_form #playlist_container .playlist .containers .available-container.playlist-widget #available-filter li {
+    color: white !important;
+    background-color: var(--bg-main) !important;
+    border: 1px solid var(--bg-main);
+}
+
+#playlist_form #playlist_container .playlist .containers .available-container.playlist-widget #available-filter li.active a {
+    color: var(--basic_branding) !important;
+}
+
+#navbar .custom_dropdown_menu .workspace_item:hover,
+#user_menu_container .user-menu>li a:hover,
+#playlist_form #playlist_container .playlist-folder.tree-folder .folder-tree-view .widget-body .widget-main #folderTree.tree .tree-branch .folder-tree-line:hover {
+    background-color: var(--bg-main) !important;
+}
+
+.is-form-view select,
+.is-form-view select.form-control {
+    background-color: var(---bg-secondary) !important;
+}
+
+#account_settings {
+    background-color: var(--bg-secondary);
+}
+
+.profile-activity {
+    border-bottom: 1px solid var(--bg-main);
+    border-left: 1px solid var(--bg-main);
+    border-right: 1px solid var(--bg-main);
+}
+
+.account-settings-list .profile-activity:hover {
+    background-color: var(--bg-main);
+}
+
+#schedule-form .fc-view.fc-agendaDay-view .fc-head-container.fc-widget-header .fc-row.fc-widget-header table thead tr>th,
+#playlist_form #playlist_container .playlist-folder .available-widget .widget-box .widget-body div[class*=select-all-items-container],
+#playlist_form #playlist_container .playlist-folder .selected-widget .widget-box .widget-body div[class*=select-all-items-container],
+#playlist_form #playlist_container .playlist-folder .available-widget .form-search,
+#playlist_form #playlist_container .playlist-folder .available-widget .widget-box .widget-body .widget-toolbox,
+#playlist_form #playlist_container .playlist-folder .selected-widget .widget-box .widget-body .widget-toolbox {
+    background-color: var(--bg-secondary) !important;
+}
+
+.tree-graph-modal .bootbox-body>ul.tree {
+    background-color: var(--bg-terciary);
+}
+
+#playlist_form #playlist_container .playlist .containers .selected-container,
+#playlist_form #playlist_container .playlist .containers .selected-container #selected,
+#playlist_form #playlist_container .playlist .containers .available-container.playlist-widget,
+#critical-alert-container .critical-alert-item,
+#firmware-update-alert-container .critical-alert-item {
+    background-color: var(--bg-secondary);
+}
+
+li.active>.tab_bottom_bar,
+#mainTable .dataTables_length .page-length-items>li.selected {
+    background-color: var(--basic_branding);
+}
+
+#schedule-form .fc-view.fc-agendaWeek-view .fc-time-grid-event .fc-content .fc-time span,
+#schedule-form .fc-view.fc-agendaWeek-view .fc-time-grid-event .fc-content .repeat-icon,
+#schedule-form .external-event .title>span {
+    color: var(--basic_branding) !important;
+}
+
+[class*=" ds-"],
+[class*=" ds_"],
+[class^=ds-],
+[class^=ds_],
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered,
+#playlist_form #playlist_container .playlist-folder.tree-folder .folder-tree-view .widget-body .widget-main #folderTree.tree .tree-branch .icon-caret {
+    color: white
+}
+
+.forward-assignment-modal .bootbox-body .screens-selection-container .select2-container .select2-selection--multiple .select2-selection__rendered li.select2-selection__choice {
+    background-color: var(--bg-main) !important;
+}
+
+#playlist_form #playlist_container .playlist .containers .selected-container #selected li .spinner-container .ui-spinner,
+#playlist_form #playlist_container .playlist .containers .selected-container #selected li .spinner-container .ui-spinner input,
+#playlist_form #playlist_container .playlist .containers .available-container.playlist-widget #available .img-container,
+#playlist_form #playlist_container .playlist-folder.tree-folder .folder-tree-view .widget-body .widget-main #folderTree,
+#playlist_form #playlist_container .playlist-folder.tree-folder .folder-tree-view .widget-body .widget-main #folderTree.tree .tree-branch.tree-selected>.folder-tree-line,
+.widget-body,
+#playlist_form #playlist_container .playlist-folder .message-item,
+.sidebar-collapse .sidebar-icon {
+    background-color: var(--bg-secondary);
+}
+
+.actions.actions-table-cell li:hover {
+    background-color: var(--bg-secondary);
+}
+
+.actions-container:hover,
+.btn-group-vertical:hover,
+#mainTable table:not(.window-resize) tbody tr td.actions-table-cell .btn-group.open .actions-container>i {
+    background-color: var(--bg-main) !important;
+}
+
+.forward-assignment-action-btns ul.dropdown-menu li.forward-assignment-action:hover {
+    background-color: var(--bg-terciary);
+}
+
+.supported-player-type {
+    background-color: var(--bg-secondary);
+}
+
+.supported-player-type {
+    color: white !important;
+}
+
+.dropdown-menu li:hover,
+.dropdown-menu li a:hover {
+    background-color: var(--bg-secondary) !important;
+}
+
+#mainTable table:not(.window-resize) tbody tr td.actions-table-cell .actions-container i:hover {
+    background-color: var(--bg-main) !important;
+}
+
+.bootstrap-datetimepicker-widget .picker-switch td span:hover {
+    background-color: var(--bg-secondary);
+
+}
+
+.bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+    background-color: var(--bg-main);
+}
+
+#navbar-container ul.nav>li a.dropdown-toggle {
+    color: white !important;
+}
+
+#navbar-container ul.nav li a.dropdown-toggle>i:hover,
+#navbar-container ul.nav>#user_menu_container a.dropdown-toggle:hover,
+#navbar-container ul.nav>li a.dropdown-toggle,
+#navbar-container ul.nav>li.open:hover a.dropdown-toggle,
+.ghost-button-dark {
+    color: white !important;
+}
+
+#device_form .monitor-container .monitor-status .snapshot-and-info-container {
+    background-color: var(---bg-secondary);
+}
+
+#duration-map-add,
+#emergency .bbf-add,
+#encryption-key-subsection-mass-fieldsets .bbf-add,
+#playlist-tag-form .bbf-add,
+#preview-default-app,
+#proxy-subsection-fields .bbf-add,
+#show-source-type-dropdown,
+#user-form .bbf-add,
+.app-options .btn,
+.app_form_view .btn-primary,
+.audio-options .btn,
+.field-roles #roles .bbf-add,
+.field-saml_groups .bbf-list .bbf-add,
+.file-actions .btn,
+.folder-actions .btn,
+.form-group .import-saml,
+.image-options .btn,
+.monitor-container .btn-info.dropdown-toggle,
+.monitor-container .dropdown-toggle,
+.open .btn-success.dropdown-toggle,
+.pdf-options .btn,
+.url-options .btn,
+.video-options .btn,
+.nav-tabs>li>a,
+#device_form .tab-content {
+    background-color: var(--bg-secondary) !important;
+}
+
+.nav-tabs>li.active>a,
+.temporary-content-modal .modal-body .bootbox-body #temporary-content-container,
+span.tm-tag.tm-tag-typeahead,
+.app_form_view .info-preview-box,
+.select2-dropdown,
+.select2-container--bootstrap .select2-selection {
+    background-color: var(--bg-main) !important;
+}
+
+.default-content,
+.app_form_view .info-preview-box,
+.redesigned_form form .form-content .settings-widget-container .settings-header {
+    color: white;
+}
+
+.tt-menu,
+#device_form .monitor-container .monitor-status .snapshot-and-info-container .snapshot-container .snapshot .install_extension,
+#device_form .monitor-container .monitor-status .snapshot-and-info-container .snapshot-container .snapshot.snapshot-not-found {
+    background-color: var(--bg-secondary) !important;
+}
+
+.video_form_view form .form-content .form-group:not(.field-valid_after):not(.field-valid_before):not(.field-flex-column):not([class*=seperator]),
+.add-description-toggle form-group i,
+.ghost-button,
+.ghost-button-file-details-logs {
+    color: var(--basic_branding) !important;
+}
