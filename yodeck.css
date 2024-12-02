@@ -550,6 +550,7 @@ select {
 .url_form_view form .form-content .details-widget-container .details-header,
 .video_form_view form .form-content .details-widget-container .details-header,
 .video_form_view form .form-content .settings-widget-container .settings-header,
+.settings-header,
 .add-description-toggle,
 #playlist_form #playlist_container .playlist .containers .available-container.playlist-widget .playlist-widget-library-title {
     color: white !important;
