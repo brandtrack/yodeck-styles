@@ -811,3 +811,27 @@ span.tm-tag.tm-tag-typeahead,
 .tertiary-pill-light[class*=active] {
     background-color: var(--basic_branding) !important;
 }
+
+
+.main-container{
+    background-color: var(--bg-main) !important;
+}
+
+
+.login_wrapper .login-container,
+.login-layout .widget-box .widget-body .widget-main,
+.snbundleeu-info .widget-box .widget-body .widget-main,
+.login-layout .widget-box.visible,
+.snbundleeu-info .widget-box.visible,
+.login-layout .widget-box,
+.snbundleeu-info .widget-box
+.login-layout .widget-box .widget-main
+.login-layout .widget-box .widget-body .widget-main, .snbundleeu-info .widget-box .widget-body .widget-main{
+    background-color: var(--bg-secondary) !important;
+}
+
+
+.language-selector-container .menu-languages,
+.login_wrapper .login-container .terms_container {
+    color: #ffffff !important;
+}
