@@ -2,6 +2,7 @@ body {
     --bg-main: #2a2d38;
     --bg-secondary: #474859;
     --bg-terciary: #474850;
+    color: white !important;
 }
 
 #body span,
@@ -33,22 +34,16 @@ i,
 #user_menu_container .user-menu,
 #show_editor .show-editor-container .layout-header-wrapper,
 #workspace-list .workspaces-info,
-#navbar.responsive {
-    color: white !important;
-    background-color: var(--bg-secondary) !important;
-}
-
-.secondary-button {
-    color: white !important;
-    background-color: var(--bg-secondary) !important;
-}
-
+#navbar.responsive,
+.secondary-button ,
 .tertiary-button-light {
     color: white !important;
     background-color: var(--bg-secondary) !important;
+    border: none
 }
 
-.tag_container a i {
+.tag_container a i,
+.info_in_tab {
     color: white !important;
 }
 
@@ -614,7 +609,7 @@ textarea {
 
 .is-form-view select,
 .is-form-view select.form-control {
-    background-color: var(---bg-secondary) !important;
+    background-color: var(--bg-secondary) !important;
 }
 
 #account_settings {
@@ -661,6 +656,10 @@ li.active>.tab_bottom_bar,
 #schedule-form .fc-view.fc-agendaWeek-view .fc-time-grid-event .fc-content .repeat-icon,
 #schedule-form .external-event .title>span {
     color: var(--basic_branding) !important;
+}
+
+.fc-time, .fc-title{
+    color: var(--bg-main) !important;
 }
 
 [class*=" ds-"],
@@ -740,7 +739,7 @@ li.active>.tab_bottom_bar,
 }
 
 #device_form .monitor-container .monitor-status .snapshot-and-info-container {
-    background-color: var(---bg-secondary);
+    background-color: var(--bg-secondary);
 }
 
 #duration-map-add,
@@ -768,7 +767,7 @@ li.active>.tab_bottom_bar,
 .video-options .btn,
 .nav-tabs>li>a,
 #device_form .tab-content {
-    background-color: var(--bg-secondary) !important;
+    background-color: none
 }
 
 .nav-tabs>li.active>a,
@@ -834,4 +833,132 @@ span.tm-tag.tm-tag-typeahead,
 .language-selector-container .menu-languages,
 .login_wrapper .login-container .terms_container {
     color: #ffffff !important;
+}
+
+
+#notification_popup_container {
+    background-color: var(--bg-secondary) !important;
+    color: #ffffff !important;
+}
+
+#background-audio .dropdown-info li a:hover, .dropdown-info li a:hover, .monitor-container .dropdown-menu li a:hover {
+    background: none;
+}
+
+
+.app-options .btn-primary, 
+.audio-options .btn-primary, 
+.filters .btn-primary, 
+.image-options .btn-primary, 
+.monitors-tag-filters .btn-primary, 
+.monitors-workspace-filters .btn-primary, 
+.pdf-options .btn-primary, .url-options .btn-primary, 
+.video-options .btn-primary {
+    border:none;
+    background-color: var(--bg-secondary) !important;
+}
+
+.app-options .btn-primary.active, .app-options .btn-primary:hover, .audio-options .btn-primary.active, .audio-options .btn-primary:hover, .filters .btn-primary.active, .filters .btn-primary:hover, .image-options .btn-primary.active, .image-options .btn-primary:hover, .monitors-tag-filters .btn-primary.active, .monitors-tag-filters .btn-primary:hover, .monitors-workspace-filters .btn-primary.active, .monitors-workspace-filters .btn-primary:hover, .pdf-options .btn-primary.active, .pdf-options .btn-primary:hover, .playlist-options .btn-primary.active, .url-options .btn-primary.active, .url-options .btn-primary:hover, .video-options .btn-primary.active, .video-options .btn-primary:hover {
+    border: 1px white solid;
+    background-color: var(--bg-secondary) !important;
+}
+
+.ultra-selector-modal .modal-dialog .local-files-selector .local-files-container [id$='_files_folder_tree'] .folder-tree-view .widget-body .widget-main #folderTree {
+    background-color: var(--bg-secondary) !important;
+    color: white !important;
+}
+
+.ultra-selector-modal .modal-dialog .local-files-selector .local-files-container [id$='_files_folder_tree'] .folder-tree-view .widget-body .widget-main #folderTree.tree .tree-branch .folder-tree-line {
+    border-bottom: none;
+}
+
+.ultra-selector-modal .modal-dialog .local-files-selector .local-files-container [id$='_files_folder_tree'] .folder-tree-view .widget-body .widget-main #folderTree.tree .tree-branch .tree-branch-header .tree-branch-name {
+    color: white !important;
+}
+
+.ultra-selector-modal .modal-dialog .local-files-selector .local-files-container [id$='_files_folder_tree'] .folder-tree-view .widget-body .widget-main #folderTree.tree .tree-branch.tree-selected>.folder-tree-line {
+    margin: 5px;
+    box-shadow: none;
+    background: none;
+}
+
+.ultra-selector-modal .modal-dialog .local-files-selector .local-files-container [id$='_files_folder_tree'] .folder-tree-view .widget-body .widget-main #folderTree.tree .folder-tree-line:hover{
+    background: none;
+    box-shadow: none;
+}
+.app-gallery-dialog .app-modal-content .slideshow-container .mySlides {
+    box-shadow: none;
+}
+
+.tab-content.profile-edit-tab-content {
+    background: var(--bg-secondary) !important;
+}
+
+.player-type-selector .player-type-button {
+    border: 1px var(--bg-secondary) solid;
+    background: var(--bg-secondary) !important;
+}
+
+.player-type-selector .player-type-button.active, 
+.player-type-selector .player-type-button:hover {
+    border: 1px var(--basic_branding) solid;
+    background: var(--basic_branding) !important;
+}
+
+.player-limitations {
+    background: none !important;
+}
+
+#device_form .monitor-container .monitor-status .snapshot-and-info-container .snapshot-container .snapshot.snapshot-not-found .snapshot-not-found-text {
+    color: white !important;
+}
+
+
+.ghost-button:active, .ghost-button:hover:not([disabled]), .ghost-button:link, .ghost-button:visited {
+    padding: 2px 5px;
+    border: 1px var(--basic_branding) solid;
+    border-radius: 15px;
+}
+
+.wifi-scan-container, a#link_to_4K_enable, a#volume-schedule-link, div[data-error], small#ratio_disabled_kms_label {
+    display: inline-flex;
+}
+
+
+.dashboard-widget-container.monitor-status .widget-content .monitor-content .status-container, 
+.dropdown-menu, .table .table, 
+#audit-logs .tab-content, #emergency-lists .tab-content, 
+.all_media_form_view form .form-content .details-widget-container .details-container, 
+.audio_form_view form .form-content .details-widget-container .details-container, 
+.image_form_view form .form-content .details-widget-container .details-container, 
+.pdf_form_view form .form-content .details-widget-container .details-container, 
+.redesigned_form form .form-content .details-widget-container .details-container, 
+.url_form_view form .form-content .details-widget-container .details-container, 
+.video_form_view form .form-content .details-widget-container .details-container, 
+#mainTable .dataTables_length .page-length-items,
+.forward-assignment-modal .bootbox-body .playlists-selection-container .select2-container .select2-selection--multiple .select2-selection__rendered li.select2-selection__choice, 
+.choices.open-transitions .transition-grid, .account-settings-list .profile-activity .thumbicon {
+    background-color: var(--bg-secondary) !important;
+} 
+
+
+.all-media-gallery-modal .modal-dialog .modal-body #all-media-lists .tabbable>.tab-content>.tab-pane[class*=container] #all-media-dropzone .all-media-upload-multiple-files {
+    color: white !important;
+}
+
+
+#schedule-form .fc-event-container .fc-content .fc-time,
+#schedule-form .fc-event-container .fc-content .fc-title {
+    color: var(--bg-main) !important;
+}
+
+#yconsole-back-button,
+#yconsole-back-button:hover{
+    background-color: var(--basic_branding);
+    border-color: var(--basic_branding);
+}
+
+#playlist_form #playlist_container .playlist .containers .available-container.playlist-widget #available-filter li a.no-subplaylist-feature-available .subplaylist-premium-pill,
+.upgrade_needed_label{
+    background-color: var(--basic_branding);
 }
