@@ -767,7 +767,7 @@ li.active>.tab_bottom_bar,
 .video-options .btn,
 .nav-tabs>li>a,
 #device_form .tab-content {
-    background-color: none
+    background: none !important;
 }
 
 .nav-tabs>li.active>a,
@@ -891,7 +891,7 @@ span.tm-tag.tm-tag-typeahead,
 }
 
 .tab-content.profile-edit-tab-content {
-    background: var(--bg-secondary) !important;
+    background: var(--bg-main) !important;
 }
 
 .player-type-selector .player-type-button {
@@ -925,23 +925,6 @@ span.tm-tag.tm-tag-typeahead,
 }
 
 
-.dashboard-widget-container.monitor-status .widget-content .monitor-content .status-container, 
-.dropdown-menu, .table .table, 
-#audit-logs .tab-content, #emergency-lists .tab-content, 
-.all_media_form_view form .form-content .details-widget-container .details-container, 
-.audio_form_view form .form-content .details-widget-container .details-container, 
-.image_form_view form .form-content .details-widget-container .details-container, 
-.pdf_form_view form .form-content .details-widget-container .details-container, 
-.redesigned_form form .form-content .details-widget-container .details-container, 
-.url_form_view form .form-content .details-widget-container .details-container, 
-.video_form_view form .form-content .details-widget-container .details-container, 
-#mainTable .dataTables_length .page-length-items,
-.forward-assignment-modal .bootbox-body .playlists-selection-container .select2-container .select2-selection--multiple .select2-selection__rendered li.select2-selection__choice, 
-.choices.open-transitions .transition-grid, .account-settings-list .profile-activity .thumbicon {
-    background-color: var(--bg-secondary) !important;
-} 
-
-
 .all-media-gallery-modal .modal-dialog .modal-body #all-media-lists .tabbable>.tab-content>.tab-pane[class*=container] #all-media-dropzone .all-media-upload-multiple-files {
     color: white !important;
 }
@@ -961,4 +944,72 @@ span.tm-tag.tm-tag-typeahead,
 #playlist_form #playlist_container .playlist .containers .available-container.playlist-widget #available-filter li a.no-subplaylist-feature-available .subplaylist-premium-pill,
 .upgrade_needed_label{
     background-color: var(--basic_branding);
+}
+
+.working-hours-modal .modal-body {
+    background: none;
+}
+
+
+.custom-listing-dropdown-menu .column-choice>div:hover {
+    background-color: var(--bg-secondary) !important;
+}
+
+.account-settings-list .profile-activity:hover {
+    background-color: var(--bg-secondary) !important
+  }
+
+#video_options .info_block {
+    background: transparent;
+}
+
+#video_options .enable_4k_info {
+    color: white;
+}
+  
+#video_options .info_block li .bullet_span {
+    background-color: white;
+}
+
+
+.all-media-gallery-modal .modal-dialog .modal-body #all-media-lists .tabbable>.tab-content>.tab-pane[class*=container] div>[class*=source-gallery]>[id$=container] [id*=stock_] .filter-button, .all-media-gallery-modal .modal-dialog .modal-body #all-media-lists .tabbable>.tab-content>.tab-pane[class*=container]>[class*=source-gallery]>[id$=container] [id*=stock_] .filter-button {
+    background: none !important;
+}
+
+.playlist-gallery-modal .modal-dialog .modal-content .modal-body {
+    background: none !important;
+}
+
+
+.playlist-gallery-modal .modal-dialog .modal-content .modal-body .playlist-source-gallery .btn-primary {
+    background-color: var(--bg-secondary) !important;
+    border-color: var(--bg-secondary) !important;
+}
+
+.playlist-gallery-modal .modal-dialog .modal-content .modal-body .playlist-source-gallery .btn-group .active {
+    background-color: var(--basic_branding);
+    border-color: var(--basic_branding);
+}
+
+.playlist-gallery-modal .modal-dialog .modal-content .modal-body .playlist-source-gallery .btn-primary>i {
+    color:white !important;
+}
+
+.transparent_tab .nav-tabs li.active>a, .transparent_tab .nav-tabs li.active>a:focus, .transparent_tab .nav-tabs li.active>a:hover {
+    color: white !important;
+    border-color: white;
+}
+
+#toolbar-layout .color-editor label, #toolbar-layout .general-settings-layering label, #toolbar-layout .select-editor label, #toolbar-layout .spinner-editor label, #toolbar-layout .text-alignment label, #toolbar-layout div[class*='-editor'] label {
+    color: white !important;
+}
+
+.nav-tabs {
+    background: var(--bg-main) !important;
+}
+
+
+.white_tab .nav-tabs li.active>a, .white_tab .nav-tabs li.active>a:focus, .white_tab .nav-tabs li.active>a:hover {
+    color: var(--basic_branding) !important;
+    border-color: var(--basic_branding) !important;
 }
